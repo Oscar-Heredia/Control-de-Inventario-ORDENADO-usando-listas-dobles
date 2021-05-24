@@ -114,8 +114,7 @@ function Agregar(){
     ID=document.getElementById("ID").value;
     Cantidad=document.getElementById("Cantidad").value;
 
-    let id = parseFloat(ID);
-    let pro=new Producto(Nombre,Precio,id,Cantidad);
+    let pro=new Producto(Nombre,Precio,ID,Cantidad);
     Tienda.agreagar(pro);
     document.getElementById("Nuevo").innerHTML="Nuevo";
     
