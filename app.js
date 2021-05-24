@@ -117,7 +117,6 @@ function Agregar(){
     let pro=new Producto(Nombre,Precio,ID,Cantidad);
     Tienda.agreagar(pro);
     document.getElementById("Nuevo").innerHTML="Nuevo";
-    
 
     document.getElementById("Nombre").value="";
     document.getElementById("Precio").value="";
