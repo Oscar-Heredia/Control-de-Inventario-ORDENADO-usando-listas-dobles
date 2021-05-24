@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inventario Listas enlazadas dobles </title>
+    
+
+</head>
+<body>
+    <div >
+        <h1>Inventario listas enlazadas dobles</h1>
+
+      ID del producto: <br> <input type="number" id="ID" class="Boton"  > 
+      <br>  <br>
+
+       Nombre del producto: <br> <input type="text" id="Nombre" class="Boton"  >
+       <br>  <br>
+
+       Precio del producto: <br> <input type="text" id="Precio" class="Boton"  >
+       <br><br>
+
+       Cantidad de producto: <br> <input type="text" id="Cantidad" class="Boton" >
+       <br>  
+       <br>
+       <button onclick="Agregar()"id="Nuevo"  >Nuevo</button>
+         <br>
+         <br>
+     
+       
+       <br>
+       Busque un producto con la ID <br> <input type="text" id="textoabuscar" class="Boton">
+       <button onclick="Buscar()"> Buscar </button> 
+       <button onclick="Borrar()" id="Borrar">Eliminar</button>
+
+     </div>
+       <p id="resultado"></p>
+       <br>
+       <button onclick="lista()">Listar todos los productos</button>
+       <button onclick="limpiar()"> Limpiar listas </button>
+
+     <br>
+     <p id="lista"></p>
+
+
+     <script src="app.js"></script>
+     
+     
+     
+</body>
+</html>
